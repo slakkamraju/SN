@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="incident">short_descriptionLIKEprinter^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="printer"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Add Printer Contact Comment</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+        // Create a GlideRecord object  
+        var grUser = new GlideRecord('sys_user');
+
+        // get printer contact User record  
+        grUser.get('73309d1ddb0480107485a08a48961987');
+
+        // Create message to add to the description  
+        var msg = current.description + "\n\nThis incident includes 'printer' in the Short description. If you need assistance from the leasing company, contact " + grUser.name + " by email at " + grUser.email + " or by phone at " + grUser.phone + ".";
+
+        current.setValue('description',msg);
+
+    })(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-21 14:09:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c171195ddb0480107485a08a4896196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Printer Contact Comment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+        <sys_update_name>sys_script_c171195ddb0480107485a08a4896196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-21 14:09:08</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c171195ddb0480107485a08a4896196b"/>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4be0cfbddb8800107485a08a489619a0" sys_domain="global" table="sys_hub_flow_input" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-23 11:30:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8be00731dbc800107485a08a48961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="Default view">4be0cfbddb8800107485a08a489619a0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_hub_flow_input" sys_domain="global" view="Default view">43e0cfbddb8800107485a08a489619a5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-23 11:30:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-23 11:30:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7e0cfbddb8800107485a08a489619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="Default view">4be0cfbddb8800107485a08a489619a0</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_hub_flow_input" sys_domain="global" view="Default view">0fe0cfbddb8800107485a08a489619a2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-23 11:30:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-23 11:30:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07e00731dbc800107485a08a48961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="Default view">4be0cfbddb8800107485a08a489619a0</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_hub_flow_input" sys_domain="global" view="Default view">c3e00731dbc800107485a08a48961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-23 11:30:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-23 11:30:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfe00731dbc800107485a08a48961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_flow_input" name="sys_hub_flow_input" sys_domain="global" view="Default view">4be0cfbddb8800107485a08a489619a0</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_hub_flow_input" sys_domain="global" view="Default view">8fe00731dbc800107485a08a48961966</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-23 11:30:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_hub_flow_input</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-23 11:30:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4be0cfbddb8800107485a08a489619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_hub_flow_input</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4be0cfbddb8800107485a08a489619a0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-23 11:30:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

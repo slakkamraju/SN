@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+	//alert("IsNewRecord Set Value to User came first");
+		if(g_form.isNewRecord()){
+			try{
+			   g_form.setValue('u_request_for',g_user.userID);
+			} 
+			catch(err) {
+				jsLog("Field Name is not correct: u_requested_for" + err.message);
+			}
+		}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 12:32:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da40f7f4dbc440107485a08a489619d1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+        <sys_update_name>sys_script_client_da40f7f4dbc440107485a08a489619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 13:39:07</sys_updated_on>
+        <table>x_407521_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

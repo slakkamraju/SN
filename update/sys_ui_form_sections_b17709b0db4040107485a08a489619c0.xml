@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b17709b0db4040107485a08a489619c0" sys_domain="global" table="x_407521_needit_needit" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 00:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b17709b0db4040107485a08a489619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407521_needit_needit" name="x_407521_needit_needit" sys_domain="global" view="f57709b0db4040107485a08a489619bb">b17709b0db4040107485a08a489619c0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_407521_needit_needit" sys_domain="global" view="f57709b0db4040107485a08a489619bb">f57709b0db4040107485a08a489619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 00:06:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 00:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d7709b0db4040107485a08a489619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407521_needit_needit" name="x_407521_needit_needit" sys_domain="global" view="f57709b0db4040107485a08a489619bb">b17709b0db4040107485a08a489619c0</sys_ui_form>
+            <sys_ui_section caption="Pane 1" display_value="Pane 1" name="x_407521_needit_needit" sys_domain="global" view="f57709b0db4040107485a08a489619bb">bd7709b0db4040107485a08a489619be</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 00:06:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 00:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b57709b0db4040107485a08a489619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_407521_needit_needit" name="x_407521_needit_needit" sys_domain="global" view="f57709b0db4040107485a08a489619bb">b17709b0db4040107485a08a489619c0</sys_ui_form>
+            <sys_ui_section caption="Pane 2" display_value="Pane 2" name="x_407521_needit_needit" sys_domain="global" view="f57709b0db4040107485a08a489619bb">b57709b0db4040107485a08a489619bf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 00:06:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_407521_needit_needit</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-20 00:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b17709b0db4040107485a08a489619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_407521_needit_needit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b17709b0db4040107485a08a489619c0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-20 00:06:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="View 2" name="View_2">f57709b0db4040107485a08a489619bb</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

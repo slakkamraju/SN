@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1"><strong>Creating NeedIt Records</strong></h1>
+<p><strong>The video explains how to complete a NeedIt request.</strong></p>
+<div class="video"><iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen=""></iframe>
+<p class="p">NeedIt requests</p>
+</div>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>New NeedIt Record Form - User</name>
+        <page>x_407521_needit_needit</page>
+        <product>1</product>
+        <qualifier>new-needit-record</qualifier>
+        <role display_value="x_407521_needit.needit_user" name="x_407521_needit.needit_user">040938f4db0040107485a08a4896197b</role>
+        <role_order>1000</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-24 18:32:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b78a512db4080107485a08a48961997</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New NeedIt Record Form - User</sys_name>
+        <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+        <sys_update_name>sys_embedded_help_content_2b78a512db4080107485a08a48961997</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 18:33:28</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b78a512db4080107485a08a48961997"/>
+</record_update>

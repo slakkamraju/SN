@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1"><strong>Administering the NeedIt Form</strong></h1>
+<p><strong>Only members of the NeedIt application team can make changes to the NeedIt form. Do not make changes to the <em>NeedIt</em> form without an approved change request.</strong></p>
+<div class="note tm-element"><span class="notetitle">Note: <strong>The NeedIt application is brought to you by Fred Luddy</strong></span></div>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>NeedIt List - Admin</name>
+        <page>x_407521_needit_needit_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role display_value="x_407521_needit.admin" name="x_407521_needit.admin">03d37d55db8480107485a08a48961968</role>
+        <role_order>10</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-24 16:53:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0931d5edbcc40107485a08a48961954</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt List - Admin</sys_name>
+        <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+        <sys_update_name>sys_embedded_help_content_a0931d5edbcc40107485a08a48961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-24 17:13:58</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0931d5edbcc40107485a08a48961954"/>
+</record_update>

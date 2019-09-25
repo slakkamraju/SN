@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Import Historic NeedIt Data">0cab48e1db0c80107485a08a489619ee</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// If the coalesce field(s) determine there is no match between the  
+  // source data row and the target table, do not create a new record in 
+  // the target table. 
+
+  if (action == 'insert') {
+		ignore = true;
+	}
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 04:34:32</sys_created_on>
+        <sys_id>5ef7dca9db0c80107485a08a48961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Needit" source="x_407521_needit">ee48fcf4db0040107485a08a489619f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit">ee48fcf4db0040107485a08a489619f0</sys_scope>
+        <sys_update_name>sys_transform_script_5ef7dca9db0c80107485a08a48961907</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 04:34:32</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
